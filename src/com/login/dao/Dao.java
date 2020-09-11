@@ -13,9 +13,9 @@ public class Dao {
 	Connection con;
 	public Dao() throws Exception{
 		Class.forName("com.mysql.jdbc.Driver");
-		this.url="jdbc:mysql://localhost:3306/rudra";
+		this.url="jdbc:mysql://localhost:3306/nikhil";
 		this.uname="root";
-		this.password="saddra";
+		this.password="admin";
 		this.con=DriverManager.getConnection(url,uname,password);
 		python=false;
 		java=false;
